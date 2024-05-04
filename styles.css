@@ -1,0 +1,89 @@
+/* Custom styles for gallery page */
+:root {
+    /* font colors */
+    --text-color_white: #fff;
+    --text-color0: #999;
+    --text-color1: #777;
+    --text-color2: #555;
+    --text-color3: #333;
+    --text-color4: #111;
+    --text-color_default: #aa80ff;
+    --text-color_ok: #66cc99;
+    --text-color_warning: #cc6699;
+    --text-color_info: #538cc6;
+
+    /* bg = background color */ 
+    --bg-color0: #888;
+    --bg-color1: #777;
+    --bg-color2: #555;
+    --bg-color3: #333;
+    --bg-color4: #111;
+    --bg-color_default: #bb99ff;
+    --bg-color_ok: #8cd9b3;
+    --bg-color_warning: #d98cb3;
+    --bg-color_info: #8cb3d9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 19px;
+}
+
+.h_cntr {
+    padding: 4em;
+    position: sticky;
+}
+
+.navbar{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.page_nav {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 200;
+}
+
+.gallery-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.gallery-thumbnail {
+    margin-top: 20px;
+}
+.gallery-thumbnail img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.gallery-thumbnail img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+.article-section {
+    margin-top: 40px;
+    background-image: url(../images/1920x1440/re_strulight_1920x1440.png);
+    padding: 2em;
+    
+}
+.article {
+    background: var(--bg-color0);
+    color: var(--text-color4);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.image-container {
+    height: 300px; /* Set a fixed height for consistency */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a better look */
+}
