@@ -6,37 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scotlands windows</title>
     <!-- Bootstrap CSS -->
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <!--  header - .h_cntr = .header_container -->
-    <div class="container h_cntr">
-        <header id="header" class="bg-light m-4">
-            <div class="row">
-                <div class="col">
-                    <img src="http://piskoviste.kvalitni.info/zz_entry/jjcodenet_gallery/jjcodenet_logo_finale228x228.png"
-                        width="128" height="168" alt="Logo" class="logo">
+    <div class="container-sm container-lg container-xxl">
+        <header id="header" class="col bg-light pt-4">
+            <div class="container-fluid bg-info rounded-3">
+                <div class="row-group d-flex justify-content-lg-between mt-2">
+                    <div class="col-lg-2 col-xs-2">
+                        <img class="rounded-bottom" src="http://piskoviste.kvalitni.info/zz_entry/jjcodenet_gallery/jjcodenet_logo_finale228x228.png" width="128" height="128" alt="jjcodenet logo">
+                    </div>
+                    <div class="col-lg-8 sol-xs-2 mx-2 text-lg-center text-light rounded">
+                        <h1 class="display-5 fw-bold">Welcome to My Coding Journey!</h1>
+                    </div>
                 </div>
-                <div class="col-6 title p-5">
-                    <h1>Scotlands Windows</h1>
-                    <p>Pictures are windows in the world.</p>
+                <div class="row">
+                    <p class="fs-6 p-2 text-dark text-center">Welcome to my property web development site! Here, I blend my skills in HTML, CSS, and a bit of JavaScript and PHP to create dynamic, user-friendly experiences. As I continue to learn and grow, I focus on crafting custom solutions while respecting copyright through thoughtful media selection. Explore my work, see my progress, and join me on this exciting journey of coding and creativity!</p>
                 </div>
-                <div class="col">
-                    <ul class="page_nav">
-                        <li><a href="#header">Header</a></li>
-                        <li><a href="#main">Main</a></li>
-                        <li><a href="#article">Article</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#review">Review</a></li>
-                        <li><a href="#footer">Footer</a></li>
-                    </ul>
+                <div class="row">
+                    <button class="btn btn-toolbar btn-primary btn-hover mb-2" type="button">Contact Me</button>
                 </div>
             </div>
+            
         </header>
-
         <!-- Navbar  -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -46,7 +43,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto fw-bold">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -64,28 +61,73 @@
             </div>
         </nav>
 
+
+
+
         <!-- Carousel Section -->
-        <div id="main" style="width: 70%;" id="carouselExampleIndicators"
-            class="centered-carousel slide d-flex justify-content-center m-4" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/re_edin8_800x600.png" class="d-block w-100" alt="Edinburgh">
+                    <img src="https://github.com/BlockJakub/Scotlandwindows/blob/main/sandGrass1.JPG?raw=true"
+                        class="d-block w-100" alt="sand grass">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kirkcaldy</h5>
+                        <p>Entrance to the beach.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="re_edinburgh2_800x600.jpg" class="d-block w-100" alt="edinburgh">
+                    <img src="https://github.com/BlockJakub/Scotlandwindows/blob/main/queensferry_bridge7.jpg?raw=true"
+                        class="d-block w-100" alt="queensferry bridge">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Forth Bridge</h5>
+                        <p>Queensferry Crossing bridges alignment.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="re_edinburgh4_800x600.jpg" class="d-block w-100" alt="edinburgh">
+                    <img src="https://github.com/BlockJakub/Scotlandwindows/blob/main/roni_edin_curvehouse2.JPG?raw=true"
+                        class="d-block w-100" alt="kennoway church">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Edinburgh</h5>
+                        <p>Rounded house.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://github.com/BlockJakub/Scotlandwindows/blob/main/falkland_hill1.jpg?raw=true"
+                        class="d-block w-100" alt="falkland hill">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Falkland Hill</h5>
+                        <p>The fly mode on...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://github.com/BlockJakub/Scotlandwindows/blob/main/re_edin8_1920x1440.png?raw=true"
+                        class="d-block w-100" alt="edinburgh">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Edinburgh</h5>
+                        <p>An moment.</p>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev w-70" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon w-70" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next w-70" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon w-70" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -93,38 +135,10 @@
 
 
         <!-- Article Section -->
-        <div id="article" class="article-section">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="article">
-                        <h2>Photography: Timing and Location Matter</h2>
-                        <hr>
-                        <h2>Why do I take pictures???</h2>
-                        <p>Due to copyright considerations and the imperative need for imagery in my website projects,
-                            possessing a camera
-                            and
-                            engaging in outdoor excursions are essential for sourcing the requisite visuals.</p>
-                        <p>Another perspective is that taking pictures serves as evidence, allowing you to contribute to
-                            moments worth sharing. Sometimes, words alone cannot convey the full experience, and
-                            photographic documentation becomes essential.</p>
-                        <blockquote>"Photography captures tangible proof of moments that would otherwise be difficult to
-                            describe."</blockquote>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="article">
-                        <h2>Photography Passion</h2>
-                        <p>Photography is not just a hobby; it's a way of life. Whenever I step out, my camera is ready
-                            to capture the essence of every moment and scene. I am passionate about photography and
-                            enjoy documenting everything I encounter. Investing in a good camera is a priority, and I am
-                            currently saving up for one that will elevate my craft.</p>
-                        <p>The primary purpose of this website gallery is to provide original media for my web projects
-                            without infringing on copyright restrictions, ensuring a unique and authentic visual
-                            representation.</p>
-                    </div>
-                </div>
+        <main class="container-fluid mt-5">
+            <div id="main" class="row">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="article">
                             <h2>Web Development Goals</h2>
                             <p>Photography plays a significant role in my web development aspirations. Visual content
@@ -133,7 +147,7 @@
                                 online experiences.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="article">
                             <h2>Design Vision</h2>
                             <p>Photography is integral to my design vision. It provides unique perspectives and visual
@@ -141,10 +155,6 @@
                                 design, I aim to create immersive and captivating digital environments that resonate
                                 with users.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
                         <div class="article">
                             <h2>Future Plans</h2>
                             <p>Looking ahead, I envision photography as a central component of my professional
@@ -156,166 +166,137 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
         <!-- Gallery - Grid-->
-        
-        
-            <hr>
-            <div id="gallery" class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('Standrews_Castle1.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('petrzel3.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('wind_turbines1.jpg');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url(#');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('sandGrass1.JPG');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('queensferry_bridge17.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('krcldTower20.JPG');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('arbroath_harbour3.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('backheaven_more_morning3.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('flatRC2.JPG');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('bazinaGolf2.JPG');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('lilies_garden15.jpg');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('re_edin7_800x800.png');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('iced_pchac1.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('falkland_hill_sunset1.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('./assets/images/kirkcaldy3_428x305.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('lilies_garden17.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('./assets/images/800x600/re_edin8_800x600.png');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('./assets/images/800x800/re_edin5_800x800.png');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('Leven_spectrum1.jpg');"></div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('./assets/images/aaa_no_edited/wayto_kirkcaldy1.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('Standrews_harbour7.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('arbroath_town6.jpg');"></div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="image-container"
-                            style="background-image: url('krcldTower11.JPG');"></div>
-                    </div>
-                </div>
-            </div>
 
 
-            <!-- Example section (feel free to add your own content) -->
-            <div class="row mt-5">
-                <div class="col-md-6">
-                    <h3>Section Two</h3>
-                    <p>This is another section where you can add your own content.</p>
+        <hr class="m-5 bg-info rounded" style="height:11px; box-shadow: 7px 7px 3px #000;">
+
+        <div id="gallery" class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="image-container"
+                        style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/Standrews_Castle1.jpg?raw=true');">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>What do you suggest?</h3>
-                    <p>Here you can suggest or showcase something related to your site or project.</p>
+                <div class="col-md-4 mb-4">
+                    <div class="image-container"
+                        style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/Standrews_harbour6.jpg?raw=true');">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-container"
+                        style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/wayto_kirkcaldy1.jpg?raw=true');">
+                    </div>
+                </div>
+                <!-- END BIG MASONRY-->
+                <div class="col-md-6 mb-4">
+                    <div class="image-container"
+                        style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/Dunfermline_greenhouse1.jpg?raw=true')">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="image-container"
+                        style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/queensferry_bridge14.jpg?raw=true');">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-container" style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/lilies_garden12.jpg?raw=true');"></div>
+                </div>
+                <!-- END BIG MASONRY-->
+                <div class="col-md-4 mb-4">
+                    <div class="image-container" style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/mini_house_kennoway.JPG?raw=true');"></div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-container" style="background-image: url('https://github.com/BlockJakub/Scotlandwindows/blob/main/queensferry_bridge17.jpg?raw=true');"></div>
                 </div>
             </div>
         </div>
+        
+        <hr class="m-5 bg-info rounded" style="height:11px; box-shadow: 7px 7px 3px #000;">
 
-        <hr>
-
-
-        <!--  FOOTER -->
-        <footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <ul class="page_nav">
-                            <li><a href="#header">Header</a></li>
-                            <li><a href="#main">Main</a></li>
-                            <li><a href="#article">Article</a></li>
-                            <li><a href="#gallery">Gallery</a></li>
-                        </ul>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="article">
+                        <h2 class="fw-bold fs-4">Photography: Timing and Location Matter</h2>
+                        <hr>
+                        <h2>Why do I take pictures???</h2>
+                        <p>Due to copyright considerations and the imperative need for imagery in my website projects,
+                            possessing a camera
+                            and
+                            engaging in outdoor excursions are essential for sourcing the requisite visuals.
+                        </p>
+                        <blockquote class="text-light fw-medium fs-4">"Photography captures tangible proof of moments that would otherwise be difficult to
+                            describe."
+                        </blockquote>
+                        <p>Another perspective is that taking pictures serves as evidence, allowing you to contribute to
+                            moments worth sharing. Sometimes, words alone cannot convey the full experience, and
+                            photographic documentation becomes essential.</p>
+                        
                     </div>
-                    <div class="col align-right">
-                        <p>Created &copy 2024. Jakub Janecek, jjcodenet.</p>
-                        <email>jjcodenet@gmail.com</email>
-                    </div>
-                    <div class="col">
-                        <p>Thanks to <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="article">
+                        <h2>Photography Passion</h2>
+                        <p>Photography is not just a hobby; it's a way of life. Whenever I step out, my camera is ready
+                            to capture the essence of every moment and scene. I am passionate about photography and
+                            enjoy documenting everything I encounter. Investing in a good camera is a priority, and I am
+                            currently saving up for one that will elevate my craft.
+                        </p>
+                        <blockquote class="text-light fw-medium fs-4">"With each click, I capture fleeting moments, preserving memories that stir emotions and inspire reflection."
+                        </blockquote>
+                        <p>The primary purpose of this website gallery is to provide original media for my web projects
+                            without infringing on copyright restrictions, ensuring a unique and authentic visual
+                            representation.
+                        </p>
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
+    </div>
+
+    <hr>
 
 
-        <!-- Bootstrap JS and dependencies -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        
+    <!--  FOOTER -->
+    <footer>
+        <div class="container-fluid bg-info">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-3">
+                    <ul class="d-flex page_nav btn-group justify-content-evenly">
+                        <li><a class="btn btn-sm text-light" href="#header">Header</a></li>
+                        <li><a class="btn btn-sm text-light" href="#main">Main</a></li>
+                        <li><a class="btn btn-sm text-light" href="#article">Article</a></li>
+                        <li><a class="btn btn-sm text-light" href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 fs-6">
+                    <p>Created | &copy 2024 | Jakub Janecek  jj_CodeNet.</p>
+                    <p>jjcodenet@gmail.com</p>
+                </div>
+                <div class="col-lg-3">
+                    <p>Thank you <a class="link-light fw-4" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap
+                            5</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-        <script>
-            // Initialize carousel
-            $(document).ready(function () {
-                $('#carouselExampleCaptions').carousel();
-            });
-        </script>     
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        // Initialize carousel
+        $(document).ready(function () {
+            $('#carouselExampleCaptions').carousel();
+        });
+    </script>
 
 </body>
 

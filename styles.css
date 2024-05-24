@@ -22,6 +22,7 @@
     --bg-color_ok: #8cd9b3;
     --bg-color_warning: #d98cb3;
     --bg-color_info: #8cb3d9;
+    --bg-color_hover: #1a6cbe;
 }
 
 * {
@@ -37,25 +38,16 @@
     position: sticky;
 }
 
-.navbar{
-    font-size: 25px;
-    font-weight: 700;
+
+
+#navbarNav li a:hover  {
+background-color: var(--bg-color_hover);
+color: var(--text-color_white);
+border-radius: 5px;
 }
 
-.page_nav {
-    text-decoration: none;
-    list-style-type: none;
-    font-weight: 200;
-}
 
-.gallery-carousel img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.gallery-thumbnail {
-    margin-top: 20px;
-}
+
 .gallery-thumbnail img {
     width: 50%;
     height: auto;
@@ -66,14 +58,8 @@
 .gallery-thumbnail img:hover {
     transform: scale(1.1); /* Zoom effect on hover */
 }
-.article-section {
-    margin-top: 40px;
-    background-image: url(../images/1920x1440/re_strulight_1920x1440.png);
-    padding: 2em;
-    
-}
 .article {
-    background: var(--bg-color0);
+    background: var(--bg-color_info);
     color: var(--text-color4);
     padding: 20px;
     border-radius: 10px;
@@ -87,3 +73,21 @@
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a better look */
 }
+
+.page_nav li {
+
+    list-style-type: none;
+}
+
+.page_nav li a:hover {
+    background-color: #1a6cbe;
+}
+
+/*https://drive.google.com/file/d/1vxUHMPBkExlG3W1l6yWXS3ceB_jNJpYv/view?usp=drive_link
+
+1vxUHMPBkExlG3W1l6yWXS3ceB_jNJpYv
+
+https://drive.google.com/uc?export=view&id=1vxUHMPBkExlG3W1l6yWXS3ceB_jNJpYv
+
+
+*/
