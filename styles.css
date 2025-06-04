@@ -90,6 +90,16 @@ border-radius: 5px;
     background-color: #1a6cbe;
 }
 
+.btn-hover {
+    transition: background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+                transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.btn-hover:hover {
+    background-color: var(--bg-color_hover);
+    transform: translateY(-2px);
+}
+
+
 /*https://drive.google.com/file/d/1vxUHMPBkExlG3W1l6yWXS3ceB_jNJpYv/view?usp=drive_link
 
 1vxUHMPBkExlG3W1l6yWXS3ceB_jNJpYv
