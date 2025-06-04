@@ -66,12 +66,19 @@ border-radius: 5px;
     margin-bottom: 20px;
 }
 .image-container {
-    height: 300px; /* Set a fixed height for consistency */
+    height: 300px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a better look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    /* existing rules */
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.image-container:hover {
+    transform: scale(1.05);
 }
 
 .page_nav li {
